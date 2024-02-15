@@ -1,0 +1,9 @@
+<NavBar />
+<h3>Username</h3>
+<p id="nombre"></p>
+<h3>Contraseña</h3>
+<p id="contra"></p>
+<script>
+    document.getElementById('nombre').innerText = localStorage.getItem('user');
+    document.getElementById('contra').innerText = localStorage.getItem('pass');
+</script>
