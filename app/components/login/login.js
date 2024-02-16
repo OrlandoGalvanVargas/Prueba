@@ -7,6 +7,5 @@ export default class LoginLoginComponent extends Component {
     delete localStorage.pass;
     localStorage.setItem('user', document.getElementById('username').value);
     localStorage.setItem('pass', document.getElementById('password').value);
-    window.location.href = 'perfil';
   }
 }

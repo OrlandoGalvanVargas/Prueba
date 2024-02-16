@@ -2,7 +2,8 @@
 <form action="target.html" name="loginForm" method="post">
     Usuario<input type="text" name="username" id="username" /><br><br>
     Password<input type="password" name="password" id="password" />
-    <button type="button" {{on "click" this.sesion}} >
-        Entrar
-    </button>
+       <LinkTo @route="perfil" {{on "click" this.sesion}}>
+            Entrar
+        </LinkTo>
+        
 </form>
