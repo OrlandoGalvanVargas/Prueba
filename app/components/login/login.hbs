@@ -1,6 +1,8 @@
- <h1>Login here</h1>
-    <form action="target.html" name="loginForm" method="post">
-        Usuario<input type="text" name="username" id="username" /><br><br>
-        Password<input type="password" name="password" id="password" />
-        <input type="button" {{on "click" this.sesion}} value="Login" />
-    </form>
+<h1>Login here</h1>
+<form action="target.html" name="loginForm" method="post">
+    Usuario<input type="text" name="username" id="username" /><br><br>
+    Password<input type="password" name="password" id="password" />
+    <button type="button" {{on "click" this.sesion}} >
+        Entrar
+    </button>
+</form>
